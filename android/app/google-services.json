@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "171968238402",
+    "firebase_url": "https://esupport-e32fa.firebaseio.com",
+    "project_id": "esupport-e32fa",
+    "storage_bucket": "esupport-e32fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171968238402:android:253e1da980d40be4",
+        "android_client_info": {
+          "package_name": "com.example.flutterlogindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171968238402-mjc87mtiijripo2la520nmunuctrov5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOImlgBEXDpPnrCPElyBxwPX9QHooEpII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
