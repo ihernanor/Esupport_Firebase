@@ -182,19 +182,25 @@ class _LoginSignUpPageState extends State<LoginSignUpPage> {
     return new Hero(
       tag: 'hero',
       child: Padding(
-        padding: EdgeInsets.fromLTRB(0.0, 70.0, 0.0, 0.0),
-        child: CircleAvatar(
-          backgroundColor: Colors.transparent,
-          radius: 48.0,
-          child: Image.asset('assets/esupport.png'),
+        padding: EdgeInsets.fromLTRB(0.0, 25.0, 0.0, 0.0),
+        child: Column(
+          children: <Widget>[
+            Text('Bienvenido a Esupport', style: TextStyle(fontSize: 40, color: Colors.black, fontWeight: FontWeight.bold)),
+            Text('\nLa mejor manera de incrementar la productividad y comunicación.\n',
+                style: TextStyle(fontSize: 18, color: Colors.grey)),
+          ],
+          //backgroundColor: Colors.transparent,
+          //radius: 60.0,
+          //child: Image.asset('assets/esupport.png'),
         ),
       ),
     );
   }
 
+
   Widget _showEmailInput() {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(0.0, 100.0, 0.0, 0.0),
+      padding: const EdgeInsets.fromLTRB(0.0, 40.0, 0.0, 0.0),
       child: new TextFormField(
         maxLines: 1,
         keyboardType: TextInputType.emailAddress,

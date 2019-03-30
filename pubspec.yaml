@@ -30,7 +30,19 @@ flutter:
   assets:
     - assets/flutter-icon.png
     - assets/esupport.png
-
+    - assets/images/barackobama.png
+    - assets/images/charliechaplin.png
+    - assets/images/batman.png
+    - assets/images/dalailama.png
+    - assets/images/mahatmagandhi.png
+    - assets/images/mickjagger.png
+    - assets/images/nativeman.png
+    - assets/images/nikolatesla.png
+    - assets/images/robot.png
+    - assets/images/captain.png
+    - assets/images/psi.png
+    - assets/images/mujer-maravilla.png
+    - assets/images/shaggy-rogers.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

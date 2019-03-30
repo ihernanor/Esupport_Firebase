@@ -19,28 +19,28 @@ class _TicketPageState extends State<TicketPage>{
   /// tasks list
   static final List<TasksListModel> tasksList = [
     TasksListModel("Impresora", Colors.indigo, [
-      Task('Book Flight', true),
-      Task('Passport check', true),
-      Task('Packing luggage', false),
-      Task('Hotel reservation', false),
+      Task('Atascos de papel', false),
+      Task('Problemas Hardware', false),
+      Task('Tóner agotado', false),
+      Task('Errores de desborda-\nmiento de memoria', false),
     ]),
     TasksListModel("Redes", Colors.red, [
-      Task('Buy milk', false),
-      Task('Plan weekend outing', false),
-      Task('Publish friday', true),
-      Task('Run 3 miles', false),
+      Task('Problemas de conexión', false),
+      Task('Proxys abiertos', false),
+      Task('Gusanos y virus', false),
+      Task('Línea telefónica', false),
     ]),
     TasksListModel("Fallas de Software", Colors.orange, [
-      Task('Buy milk', false),
-      Task('Plan weekend outing', true),
-      Task('Wash clothes', true),
-      Task('Update database', false),
+      Task('Computadora lenta', false),
+      Task('no enciende el CPU', false),
+      Task('Paros de sistema \ninesperado', false),
+      Task('La PC se reinicia o \napaga sola', false),
     ]),
     TasksListModel("Servidores", Colors.blue, [
-      Task('Study', true),
-      Task('Read comics', false),
-      Task('Spend', true),
-      Task('Hit the books at 4pm', false),
+      Task('Dejó de recibir \npeticiones', false),
+      Task('Servidor muy lento', false),
+      Task('Apagos de manera \nconstante', false),
+      Task('No enciende', false),
     ]),
   ];
 
