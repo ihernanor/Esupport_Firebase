@@ -5,6 +5,9 @@ import 'package:flutter_login_demo/models/todo.dart';
 import 'dart:async';
 import 'package:flutter_login_demo/pages/tickets.dart';
 import 'package:flutter_login_demo/usuarios/usuarios.dart';
+import 'package:flutter_login_demo/lista_tareas/bloc/proveedor_bloque.dart';
+import 'package:flutter_login_demo/lista_tareas/home_tareas/home.dart';
+import 'package:flutter_login_demo/lista_tareas/home_tareas/home_bloc.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.auth, this.userId, this.onSignedOut})
@@ -295,14 +298,14 @@ class _HomePageState extends State<HomePage> {
             "Localización",
           ),
           buildCardWithIcon(
-            Icons.pie_chart,
+            Icons.assignment,
             context,
                 () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                //return PassCodeScreen();
+                return BlocProvider(bloc: HomeBloc(), child: TareaHomePage());
               }));
             },
-            "Gráficas",
+            "Lista de Tareas",
           ),
           buildCardWithIcon(
             Icons.exit_to_app,
