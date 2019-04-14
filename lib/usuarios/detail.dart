@@ -59,7 +59,7 @@ class _DetailOfPeople extends State<Detail>{
                         width: double.infinity,
                         padding: EdgeInsets.symmetric(horizontal: 15.0 ,vertical: 10.0),
                         child: Text(
-                          "work",
+                          "Trabajo",
                           textAlign: TextAlign.left,
                           style: TextStyle(
                               color: people.color,
@@ -76,7 +76,7 @@ class _DetailOfPeople extends State<Detail>{
                       Container(
                         width: double.infinity,
                         padding: EdgeInsets.symmetric(horizontal: 15.0,vertical: 10.0),
-                        child: Text("About",
+                        child: Text("Acerca de",
                             textAlign: TextAlign.left,
                             style: Theme.of(context).textTheme.body2),
                       ),
@@ -89,7 +89,7 @@ class _DetailOfPeople extends State<Detail>{
                       Container(
                         width: double.infinity,
                         padding: EdgeInsets.symmetric(horizontal: 15.0,vertical: 10.0),
-                        child: Text("Word",
+                        child: Text("Palabra",
                             textAlign: TextAlign.left,
                             style: Theme.of(context).textTheme.body2),
                       ),
@@ -107,7 +107,7 @@ class _DetailOfPeople extends State<Detail>{
                               Container(
                                 width: double.infinity,
                                 padding: EdgeInsets.only(left: 14.0,right: 14.0,bottom: 14.0),
-                                child: Text("Quotes"
+                                child: Text("Citas"
                                   ,textAlign: TextAlign.left,
                                   style: Theme.of(context).textTheme.body2.copyWith(
                                       color: people.isDark?Colors.white:Colors.black

@@ -3,11 +3,11 @@ import 'package:flutter_login_demo/services/authentication.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter_login_demo/models/todo.dart';
 import 'dart:async';
-import 'package:flutter_login_demo/pages/tickets.dart';
 import 'package:flutter_login_demo/usuarios/usuarios.dart';
 import 'package:flutter_login_demo/lista_tareas/bloc/proveedor_bloque.dart';
 import 'package:flutter_login_demo/lista_tareas/home_tareas/home.dart';
 import 'package:flutter_login_demo/lista_tareas/home_tareas/home_bloc.dart';
+import 'package:flutter_login_demo/tickets/ticket_dashboard.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.auth, this.userId, this.onSignedOut})
@@ -270,7 +270,7 @@ class _HomePageState extends State<HomePage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return TicketPage();
+                    return TicketDashboard();
                   },
                 ),
               );

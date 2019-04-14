@@ -17,11 +17,11 @@ const double FONT_SIZE_LABEL = 14.0;
 const double FONT_SIZE_DATE = 12.0;
 
 const String TWITTER_URL = "https://twitter.com/login?lang=es";
-const String FACEBOOK_URL = "https://www.facebook.com/ivan.hdez.o";
-const String GITHUB_URL = "https://github.com/ihernanor";
+const String FACEBOOK_URL = "https://www.facebook.com/esup.mx.7";
+const String GITHUB_URL = "https://illogical-wages.000webhostapp.com/ESSU/index.html";
 const String PROJECT_URL = "https://github.com/ihernanor/Esupport_Firebase";
 const String ISSUE_URL = "https://github.com/ihernanor/Esupport_Firebase/issues";
 const String README_URL =
     "https://github.com/ihernanor/Esupport_Firebase/blob/master/README.md";
 const String EMAIL_URL =
-    "mailto:<ihernanor96@gmail.com>?subject=Esupport%20Query&body=Hola";
+    "mailto:<esupmx@gmail.com>?subject=Esupport%20Query&body=Hola";

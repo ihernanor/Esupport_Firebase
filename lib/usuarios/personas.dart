@@ -66,12 +66,13 @@ final List<Peoples> peoples= [
       name: 'Iván Hdez',
       age: "22",
       dob: '15.Dic.96',
-      note: "Lider de Esupport "
+      note: "Analista de Esupport "
           " ",
-      quotes: " ",
-      word: "I´m Batman",
+      quotes: "Estoy trabajando en Esupport para ofrecer mayor"
+          "velocidad en las tareas diarias.",
+      word: "No llegamos para temer el futuro. Vinimos aquí para darle forma.",
       image: "batman",
-      work: "Líder",
+      work: "Analista",
       photoUrls: ["assets/images/captain.png","assets/pimage/1.png","assets/pimage/2.png","assets/pimage/3.png",],
       color: Color.fromRGBO(136, 91, 61, 1.0)),
 
@@ -83,8 +84,9 @@ final List<Peoples> peoples= [
       dob: '17.May.96',
       note: "Soy desarrollador de aplicaciones."
           " ",
-      quotes: " ",
-      word: " ",
+      quotes: "Estoy trabajando en Esupport para ofrecer mayor"
+          "velocidad en las tareas diarias.",
+      word: "Probamos que todavía somos personas capaces de hacer grandes cosas y enfrentar nuestros mayores desafíos.",
       image: "barackobama",
       work: "Diseñador",
       photoUrls: ["assets/images/captain.png","assets/images/captain.png","assets/images/captain.png","assets/images/captain.png",],
@@ -97,8 +99,9 @@ final List<Peoples> peoples= [
       age: "22",
       dob: '11.Jun.96',
       note: "Soy desarrollador de aplicaciones.",
-      quotes: " ",
-      word: "",
+      quotes: "Estoy trabajando en Esupport para ofrecer mayor"
+          "velocidad en las tareas diarias.",
+      word: "Persevera. Nada que valga la pena es fácil.",
       image: "mujer-maravilla",
       work: "Analísta",
       photoUrls: ["assets/images/mujer-maravilla.png","assets/images/mujer-maravilla.png","assets/images/mujer-maravilla.png","assets/images/mujer-maravilla.png",],
@@ -112,8 +115,9 @@ final List<Peoples> peoples= [
       dob: '24.Ago.95',
       note: "Soy desarrollador de aplicaciones."
           "  ",
-      quotes: " ",
-      word: " "
+      quotes: "Estoy trabajando en Esupport para ofrecer mayor"
+          "velocidad en las tareas diarias.",
+      word: "La grandeza nunca es gratis; debe ser ganada."
           " ",
       image: "mickjagger",
       work: "Analista",
@@ -128,7 +132,7 @@ final List<Peoples> peoples= [
       dob: '03.Jul.90',
       note: "!Zoinks!",
       quotes: " ",
-      word: "Usaré menos de mi 1% de poder.",
+      word: "Scoby doo, Donde estás!",
       image: "shaggy-rogers",
       work: "Detective",
       photoUrls: ["assets/pimage/271.png","assets/images/shaggy-power.png","assets/images/009.png","assets/images/shaggy-15.png",],

@@ -58,7 +58,7 @@ class AboutUsScreen extends StatelessWidget {
                     ListTile(
                         leading: Icon(Icons.email, color: Colors.black),
                         title: Text("Enviar un correo electrónico"),
-                        subtitle: Text("esupport@hotmail.com"),
+                        subtitle: Text("esupmx@gmail.com"),
                         onTap: () => launchURL(EMAIL_URL)),
                   ],
                 ),
