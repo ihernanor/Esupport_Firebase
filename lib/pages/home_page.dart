@@ -8,6 +8,8 @@ import 'package:flutter_login_demo/lista_tareas/bloc/proveedor_bloque.dart';
 import 'package:flutter_login_demo/lista_tareas/home_tareas/home.dart';
 import 'package:flutter_login_demo/lista_tareas/home_tareas/home_bloc.dart';
 import 'package:flutter_login_demo/tickets/ticket_dashboard.dart';
+import 'package:flutter_login_demo/pages/graficas.dart';
+import 'package:flutter_login_demo/pages/conversacion.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.auth, this.userId, this.onSignedOut})
@@ -308,14 +310,14 @@ class _HomePageState extends State<HomePage> {
             "Lista de Tareas",
           ),
           buildCardWithIcon(
-            Icons.exit_to_app,
+            Icons.pie_chart,
             context,
                 () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                //return AnimatedWaveCard();
+                return Graficas();
               }));
             },
-            "Salir",
+            "Gráficas",
           ),
           buildCardWithIcon(
             Icons.textsms,
@@ -324,7 +326,7 @@ class _HomePageState extends State<HomePage> {
               Navigator.of(context).pushReplacement(
                 new MaterialPageRoute(
                   builder: (BuildContext context) {
-                    //return new OtpLoginPage();
+                    return new Conversaciones();
                   },
                 ),
               );
